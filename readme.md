@@ -14,8 +14,14 @@ Pull this package in through Composer.
 ```js
 {
     "require": {
-        "bynicolas/presenter": "0.1.*"
-    }
+        "bynicolas/presenter": "^0.2"
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bynicolas/presenter"
+        }
+    ]
 }
 ```
 
